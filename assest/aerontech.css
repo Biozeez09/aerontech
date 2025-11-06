@@ -273,8 +273,8 @@ p {
   .M-paragr {
     font-family: var(--paragratext);
     display: block;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 25px;
     font-weight: 300;
     margin-top: 1rem;
     margin-bottom: 5rem;
@@ -1033,7 +1033,7 @@ p {
 
   .M-Ten {
     width: 100%;
-    height: 48avh;
+    height: 48vh;
     background: #cccddb;
     padding-top: 1rem;
     margin-bottom: 1rem;
@@ -1052,7 +1052,8 @@ p {
 
   .M-para{
     font-family: var(--paragratext);
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 400;
     color: black;
     display: flex;
     align-items: center;
@@ -1068,13 +1069,13 @@ p {
     
   }
   .M-review-button {
-    width: 33%;
+    width: 45%;
     /* height: 4vh; */
     padding: 10px;
     color: #0754a8;
     margin-bottom: 1rem;
     font-size: 20px;
-    font-family: poppins;
+    font-family: poppins,sans-serif;
     border-radius: 7px;
     outline: none;
     border: none;
@@ -1252,7 +1253,7 @@ p {
 
   .M-Footer {
     width: 100%;
-    height: 165vh;
+    height: 170vh;
     background: #080a2d;
     padding-left: 3vh;
     display: block;
@@ -1281,7 +1282,7 @@ p {
   .M-web-link {
     width: 70%;
     height: 40vh;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     padding-top: 2rem;
     text-decoration: none;
   }
@@ -1351,7 +1352,7 @@ p {
 
   .Review-btn {
     width: 100%;
-    height: 5vh;
+    /* height: 5vh; */
     padding: 1rem;
     background: white;
     font-family: poppins, sans-serif;
