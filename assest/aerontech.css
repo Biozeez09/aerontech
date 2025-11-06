@@ -254,7 +254,7 @@ p {
   .M-third {
     width: 100%;
     height: 25vh;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
     background-color: white;
   }
 
@@ -274,7 +274,7 @@ p {
   .M-paragr {
     font-family: var(--paragratext);
     display: block;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
     font-weight: 300;
     margin-top: 1rem;
@@ -316,7 +316,7 @@ p {
     width: 100%;
     height: 20vh;
     display: block;
-    margin-top: 13rem;
+    margin-top: 23rem;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -556,9 +556,9 @@ p {
     height: 70vh;
     display: block;
     background-color: #cccddb;
-    margin-top: 30px;
+    margin-top: 12rem;
     margin-bottom:5rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
   .M-seven-one {
@@ -644,7 +644,7 @@ p {
     height: 50vh;
     background-color: white;
     margin-top: 2rem;
-    margin-bottom: 18rem;
+    margin-bottom: 22rem;
     padding-top: 2rem;
     display: block;
   }
@@ -1046,6 +1046,7 @@ p {
     font-family: poppins;
     font-size: 16px;
     color: #ff0004;
+    padding-top: 2rem;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -1083,7 +1084,7 @@ p {
   }
 
 
-  .M-review-button a .M-button a {
+  .M-review-button a {
     text-decoration: none;
     color: #010102;
   }
@@ -1254,7 +1255,7 @@ p {
 
   .M-Footer {
     width: 100%;
-    height: 175vh;
+    height: 190vh;
     background: #080a2d;
     padding-left: 3vh;
     display: block;
@@ -1271,7 +1272,7 @@ p {
   .M-aeron {
     width: 70%;
     height: 35vh;
-    margin-bottom: 5rem;
+    margin-bottom: 9rem;
     padding-top: 2rem;
     text-decoration: none;
     color: white;
@@ -1308,7 +1309,7 @@ p {
 
   .M-address {
     width: 70%;
-    height: 33vh;
+    height: 32vh;
     text-decoration: none;
     color: white;
     padding-top: 2rem;
@@ -1409,7 +1410,7 @@ p {
 
   .Review-paragrapT {
     font-family:poppins, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 20px;
 
