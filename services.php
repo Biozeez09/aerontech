@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | AeronTech</title>
+  <link rel="stylesheet" href="./assest/aerontech.css">
+  <link rel="shortcut icon" href="./assest/images/Aeron logo.png">
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─── -->
+  <header class="Navigation-header">
+    <a href="index.php"><img class="logo1" src="./assest/images/Aeron logo.png" alt="AeronTech Logo" width="60"></a>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li class="active"><a href="services.php">Services</a></li>
+      <li><a href="contact.php">Contact</a></li>
+      <li><a href="index.php#portfolio">Goals</a></li>
+    </ul>
+    <a href="contact.php" class="btn">Let's Talk Now</a>
+  </header>
+
+  <!-- ─── PAGE HERO ─── -->
+  <section class="page-hero">
+    <h1 class="fade-up">Our Services</h1>
+    <p class="fade-up">Comprehensive digital solutions to elevate your brand and grow your business.</p>
+  </section>
+
+  <!-- ─── SERVICES GRID ─── -->
+  <section class="services-grid">
+    <div class="service-card fade-up">
+      <div class="service-icon">
+        <img src="./assest/images/W.D.gif" alt="Web Development">
+      </div>
+      <h3>Web Development</h3>
+      <p>We build responsive, high-performance websites and web applications using modern technologies. From simple landing pages to complex platforms, we deliver solutions that work.</p>
+      <a href="contact.php" class="btn">Get Started</a>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">
+        <img src="./assest/images/G.D.gif" alt="Graphic Design">
+      </div>
+      <h3>Graphic Design</h3>
+      <p>Our designers bring your vision to life with stunning visuals, brand identities, and creative assets that capture attention and communicate your message effectively.</p>
+      <a href="contact.php" class="btn">Get Started</a>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">
+        <img src="./assest/images/M.T.gif" alt="Marketing">
+      </div>
+      <h3>Digital Marketing</h3>
+      <p>Strategic marketing solutions that help you reach your target audience, build brand awareness, and drive growth across all digital channels.</p>
+      <a href="contact.php" class="btn">Get Started</a>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">
+        <img src="./assest/images/Aeron logo.png" alt="Brand Identity">
+      </div>
+      <h3>Brand Identity</h3>
+      <p>We craft cohesive brand identities that tell your story, from logos and color palettes to complete brand guidelines that ensure consistency across every touchpoint.</p>
+      <a href="contact.php" class="btn">Get Started</a>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">
+        <img src="./assest/images/3d logo.png" alt="UI/UX Design">
+      </div>
+      <h3>UI/UX Design</h3>
+      <p>User-centered design that combines aesthetics with functionality. We create intuitive interfaces that delight users and drive engagement.</p>
+      <a href="contact.php" class="btn">Get Started</a>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">
+        <img src="./assest/images/Book.jpg" alt="Consulting">
+      </div>
+      <h3>Tech Consulting</h3>
+      <p>Expert guidance on technology strategy, digital transformation, and solution architecture to help you make informed decisions and achieve your business goals.</p>
+      <a href="contact.php" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- ─── PROCESS ─── -->
+  <section class="process-section">
+    <div class="section-title">
+      <h2>How We Work</h2>
+      <h3>Our Process</h3>
+      <p>From idea to launch, we follow a proven workflow</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step fade-up">
+        <div class="step-number">1</div>
+        <h4>Discovery</h4>
+        <p>We learn about your business, goals, and audience to define the project scope.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="step-number">2</div>
+        <h4>Design</h4>
+        <p>We create wireframes, prototypes, and visual designs that align with your brand.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="step-number">3</div>
+        <h4>Develop</h4>
+        <p>Our developers bring the design to life with clean, scalable code.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="step-number">4</div>
+        <h4>Launch & Support</h4>
+        <p>We deploy your project and provide ongoing support to ensure success.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PRICING ─── -->
+  <section class="pricing-section">
+    <div class="section-title">
+      <h2>Pricing</h2>
+      <h3>Choose Your Plan</h3>
+      <p>Flexible options for every business size</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card fade-up">
+        <h3>Starter</h3>
+        <div class="price">$499 <span>/ project</span></div>
+        <ul>
+          <li>5-page responsive website</li>
+          <li>Basic SEO setup</li>
+          <li>Mobile optimization</li>
+          <li>1 revision round</li>
+          <li>1 month support</li>
+        </ul>
+        <a href="contact.php" class="btn">Get Started</a>
+      </div>
+      <div class="pricing-card featured fade-up">
+        <div class="featured-badge">POPULAR</div>
+        <h3>Business</h3>
+        <div class="price">$1,299 <span>/ project</span></div>
+        <ul>
+          <li>10-page responsive website</li>
+          <li>Advanced SEO optimization</li>
+          <li>CMS integration</li>
+          <li>3 revision rounds</li>
+          <li>3 months support</li>
+          <li>Brand identity package</li>
+        </ul>
+        <a href="contact.php" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="pricing-card fade-up">
+        <h3>Enterprise</h3>
+        <div class="price">$2,999 <span>/ project</span></div>
+        <ul>
+          <li>Custom web application</li>
+          <li>Full SEO & analytics</li>
+          <li>API integrations</li>
+          <li>Unlimited revisions</li>
+          <li>6 months support</li>
+          <li>Dedicated project manager</li>
+        </ul>
+        <a href="contact.php" class="btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FAQ ─── -->
+  <section class="faq-section">
+    <div class="section-title">
+      <h2>FAQ</h2>
+      <h3>Frequently Asked Questions</h3>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item fade-up">
+        <button class="faq-question">How long does a typical project take? <span class="arrow">▼</span></button>
+        <div class="faq-answer"><p>Most projects take between 2-6 weeks depending on complexity. We'll provide a detailed timeline during the discovery phase.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <button class="faq-question">Do you offer ongoing maintenance? <span class="arrow">▼</span></button>
+        <div class="faq-answer"><p>Yes! We offer maintenance packages to keep your website secure, updated, and running smoothly.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <button class="faq-question">What is your design process? <span class="arrow">▼</span></button>
+        <div class="faq-answer"><p>We start with research and wireframes, then move to high-fidelity designs. You'll have opportunities to provide feedback at each stage.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <button class="faq-question">Do you require a deposit? <span class="arrow">▼</span></button>
+        <div class="faq-answer"><p>Yes, we require a 50% deposit to begin work, with the remaining balance due upon project completion.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SOCIAL FOOTER ─── -->
+  <div class="Footer-one-medias">
+    <p class="p-follow">FOLLOW US</p>
+    <div class="Social-icons">
+      <div><a href="https://www.facebook.com/azeez.ibrahimbiozeez.7" target="_blank" rel="noopener"><img class="media-cont" src="./assest/images/F.png" alt="Facebook"></a></div>
+      <div><a href="https://youtube.com/@biozeez_tech" target="_blank" rel="noopener"><img class="media-cont" src="./assest/images/Y.png" alt="YouTube"></a></div>
+      <div><a href="https://x.com/Biozeez09" target="_blank" rel="noopener"><img class="media-cont" src="./assest/images/X.png" alt="X"></a></div>
+      <div><a href="tel:+2349166668701"><img class="media-cont" src="./assest/images/W.png" alt="WhatsApp"></a></div>
+      <div><a href="https://www.linkedin.com/in/ibrahim-azeez-8a25512a8" target="_blank" rel="noopener"><img class="media-cont" src="./assest/images/L.png" alt="LinkedIn"></a></div>
+      <div><a href="https://biozeez09.github.io/aerontech/" target="_blank" rel="noopener"><img class="media-cont" src="./assest/images/github.png" alt="GitHub"></a></div>
+    </div>
+  </div>
+
+  <!-- ─── MAIN FOOTER ─── -->
+  <footer class="Main-Footer">
+    <div class="F-aeron">
+      <h4 class="F-h4">AERON INC.</h4>
+      <p>We are passionate about our work. Our developer stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out.</p>
+    </div>
+    <div class="F-web-links">
+      <h4 class="F-h4">WEBSITE LINKS</h4>
+      <div class="F-link">
+        <a href="about.php"><p>About Us</p></a>
+        <a href="services.php"><p>Our Services</p></a>
+        <a href="#"><p>Privacy & Policy</p></a>
+        <a href="#"><p>Explorer Point Program</p></a>
+        <a href="#"><p>Terms & Condition</p></a>
+        <a href="contact.php"><p>Contact Us</p></a>
+      </div>
+    </div>
+    <div class="F-help-links">
+      <h4 class="F-h4">GET HELP</h4>
+      <div class="F-link">
+        <a href="#"><p>Online Guide</p></a>
+        <a href="contact.php"><p>Contact Us</p></a>
+        <a href="tel:+2349035114545"><p>+2349035114545</p></a>
+        <a href="mailto:Biodzeez@gmail.com"><p>Biodzeez@gmail.com</p></a>
+      </div>
+    </div>
+    <div class="F-address">
+      <h4 class="F-h4">ADDRESS</h4>
+      <p>88A, Itale-papa Community,<br>Oja-Odan, Ogun-State.</p>
+    </div>
+  </footer>
+
+  <div class="Developed">
+    <p>All Rights Reserved &copy; 2025 Aeron Inc. Developed by <a href="mailto:Biodzeez@gmail.com"><span>Bio_tech</span></a></p>
+  </div>
+
+  <script src="./assest/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeronTech | Web Developer | Brand Identity | Code Website</title>
+  <link rel="stylesheet" href="./assest/aerontech.css">
+  <link rel="shortcut icon" href="./assest/images/Aeron logo.png">
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─── -->
+  <header class="Navigation-header">
+    <img class="logo1" src="./assest/images/Aeron logo.png" alt="AeronTech Logo" width="60">
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links">
+      <li data-section="home" class="active">Home</li>
+      <li data-section="about"><a href="about.php">About</a></li>
+      <li data-section="services"><a href="services.php">Services</a></li>
+      <li data-section="contact"><a href="contact.php">Contact</a></li>
+      <li data-section="goals"><a href="#portfolio">Goals</a></li>
+    </ul>
+    <a href="contact.php" class="btn">Let's Talk Now</a>
+  </header>
+
+  <!-- ─── HERO SECTION ─── -->
+  <section class="Host-second" id="home">
+    <div class="Host-second-one">
+      <div class="Mobile-Navi">
+        <img src="./assest/images/Aeron logo.png" alt="AeronTech" width="50">
+        <a href="https://www.linkedin.com/in/ibrahim-azeez-8a25512a8">
+          <img src="./assest/images/meun.png" alt="Menu" width="40">
+        </a>
+      </div>
+      <h1 class="hero-text fade-up">
+        WE CREATE<br>
+        <span class="Snd-text">THE WEB</span>
+      </h1>
+      <p class="Parag-text fade-up">
+        Built for change. From cloud to code,<br>we design systems that scale and evolve with you.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── THIRD SECTION ─── -->
+  <section class="Host-Third" id="about">
+    <div class="host-third-one fade-left">
+      <h3>WE CREATE WHAT SPEAKS FOR YOU!</h3>
+      <p>
+        Enhance your designs with AERON, with powerful online design tools!
+        From our AI Caption Generator for compelling copy to the AI
+        Background Remover for seamless edits, our free graphic design
+        software simplifies every step of the creative process. Use the Resize
+        Tool to tailor your designs for multiple platforms, ensuring your
+        visuals look perfect across social media, print, and digital displays.
+        The Brand Kits help you maintain a consistent look, while the Content
+        Planner streamlines your marketing efforts. Whether you're designing
+        for business, events, or personal projects, our intuitive tools make
+        graphic creation fast and easy. Try our online design tool for free
+        today and take your visuals to the next level.
+      </p>
+    </div>
+    <div class="host-third-two fade-right">
+      <img src="./assest/images/03.png" alt="Design Tools" class="host-third-img">
+    </div>
+  </section>
+
+  <!-- ─── FOURTH SECTION ─── -->
+  <section class="Host-Fourth">
+    <h2 class="singleh3">Our Creative Ideas</h2>
+    <p class="fade-up">
+      Our easy-to-customize templates are crafted by world-class<br>
+      designers to help create the web's most expressive online stores.
+    </p>
+  </section>
+
+  <!-- ─── PORTFOLIO GRID ─── -->
+  <section class="Host-Fiveth" id="portfolio">
+    <div class="host-fivethchild-one fade-up">
+      <div class="h-fiveth-one-1">
+        <img class="Host-Fiveth-img" src="./assest/images/Web1.png" alt="Web Project 1">
+      </div>
+      <div class="h-fiveth-one-1">
+        <img class="Host-Fiveth-img" src="./assest/images/Web2.png" alt="Web Project 2">
+      </div>
+      <div class="h-fiveth-one-1">
+        <img class="Host-Fiveth-img" src="./assest/images/Web 4.png" alt="Web Project 3">
+      </div>
+    </div>
+    <div class="host-fivethchild-two fade-up">
+      <div class="h-fiveth-one-1">
+        <img class="Host-Fiveth-img" src="./assest/images/Web6.jpg" alt="Web Project 4">
+      </div>
+      <div class="h-fiveth-one-1">
+        <img class="Host-Fiveth-img" src="./assest/images/3d logo.png" alt="Brand Identity">
+      </div>
+      <div class="h-fiveth-one-1">
+        <img class="Host-Fiveth-img" src="./assest/images/Web5.png" alt="Web Project 5">
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SIXTH SECTION ─── -->
+  <section class="Host-Six fade-up">
+    <h3>SMALL BUSINESS</h3>
+    <p>
+      Small business owners juggle multiple responsibilities, and
+      marketing shouldn't be an added stress. Our platform offers a range of
+      templates designed to help your brand stand out, from sleek flyers to
+      engaging promotional videos. With our online graphic design platform,
+      you can craft unique branding materials that capture your audience's
+      attention. Features like the AI Image Generator and Schedule Maker
+      ensure your content remains fresh and consistent across different
+      marketing channels. Whether you're advertising a new service or running
+      a promotional sale, our free design tool makes the process seamless.
+      Start designing your next campaign today!
+    </p>
+    <button class="btn">Create a Product Carousel</button>
+  </section>
+
+  <!-- ─── SEVENTH SECTION ─── -->
+  <section class="Host-Seven">
+    <div class="host-seven-one fade-left">
+      <img class="seven-image" src="./assest/images/Sec7.jpg" alt="Aeron Agency">
+    </div>
+    <div class="host-seven-two fade-right">
+      <h3>WE Are Aeron Agency!</h3>
+      <p class="Chose-text">CHOOSE THE BEST<br>COGNITIVE ORGANIZER IN<br>THE CITY.</p>
+      <a href="about.php" class="btn">View More About Us...</a>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES SECTION ─── -->
+  <section class="Host-Eight" id="services">
+    <h2 class="Service-text">Our Featured Services</h2>
+    <p class="section-title" style="margin-top: -1.5rem;">We provide all exclusive services for clients</p>
+    <div class="host-eight-two">
+      <div class="host-eight-one-1 fade-up">
+        <div class="single-box-8">
+          <img src="./assest/images/W.D.gif" alt="Web Development">
+          <h3>Web Developing</h3>
+        </div>
+        <p>We craft tools that make tech feel effortless, intuitive, and human.</p>
+        <a href="services.php" class="btn">Learn More...</a>
+      </div>
+      <div class="host-eight-one-1 fade-up">
+        <div class="single-box-8">
+          <img src="./assest/images/G.D.gif" alt="Graphic Design">
+          <h3>Senior Designers</h3>
+        </div>
+        <p>We bring life into your Design by our professions.</p>
+        <a href="services.php" class="btn">Learn More...</a>
+      </div>
+      <div class="host-eight-one-1 fade-up">
+        <div class="single-box-8">
+          <img src="./assest/images/M.T.gif" alt="Marketing">
+          <h3>Marketing Globally</h3>
+        </div>
+        <p>We don't just follow trends — we set them globally.</p>
+        <a href="services.php" class="btn">Learn More...</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PORTFOLIO SHOWCASE ─── -->
+  <section class="Host-Nine" id="portfolio-showcase">
+    <h3 class="port-head-1">Our Portfolios</h3>
+    <p class="port-head-2">Some of our works</p>
+    <div class="host-nine-two">
+      <div class="nine-two-1">
+        <h5>WEB DEVELOPMENT</h5>
+        <h5>GRAPHIC DESIGN</h5>
+        <h5>MARKETING</h5>
+      </div>
+      <div class="nine-two-2">
+        <div class="bk-image-1"><div class="text-cont-1">Your website promotes<br>you 24/7</div></div>
+        <div class="bk-image-2"><div class="text-cont-2">No employee will<br>do that.</div></div>
+        <div class="bk-image-3"><div class="text-cont-3">Good design is</div></div>
+      </div>
+      <div class="nine-two-3">
+        <div class="bk-image-3-1"><div class="text-cont-3-1">Good business.</div></div>
+        <div class="bk-image-3-2"><div class="text-cont-3-2">Ignoring online<br>marketing is like</div></div>
+        <div class="bk-image-3-3"><div class="text-cont-3-3">Opening a business but<br>not telling anyone.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─── -->
+  <section class="Host-Ten" id="testimonials">
+    <h2 class="singleh3">Testimonials</h2>
+    <p class="h-ten-head">Our Client's Reviews</p>
+    <div class="testimonial-grid">
+      <div class="host-ten-one-1 fade-up">
+        <p class="ten-review-name">Mr Azeez M.A</p>
+        <img class="ten-img-resize" src="./assest/images/St5.png" alt="5 Stars">
+        <p>Their developers are equally industry experts, in graphics design that gives life. Give your projects to them today!</p>
+      </div>
+      <div class="host-ten-one-1 fade-up">
+        <p class="ten-review-name">Queen Adekemi A.</p>
+        <img class="ten-img-resize" src="./assest/images/4-1.png" alt="4 Stars">
+        <p>We've worked with Aeron on several projects, and they continue to exceed our expectation. Highly recommended!</p>
+      </div>
+      <div class="host-ten-one-1 fade-up">
+        <p class="ten-review-name">Dr. Oladehinde M.</p>
+        <img class="ten-img-resize" src="./assest/images/St5.png" alt="5 Stars">
+        <p>Aeron company deliver top-tier technology solutions. Whether it's software or IT consulting, they bring both creativity & professionalism.</p>
+      </div>
+      <div class="host-ten-one-1 fade-up">
+        <p class="ten-review-name">Mr Bof World F.</p>
+        <img class="ten-img-resize" src="./assest/images/St5.png" alt="5 Stars">
+        <p>What sets Aeron company apart is their genuine care for client success. They listen, adapt, and go extra miles to make sure everything works perfectly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SOCIAL MEDIA FOOTER ─── -->
+  <div class="Footer-one-medias">
+    <p class="p-follow">FOLLOW US</p>
+    <div class="Social-icons">
+      <div>
+        <a href="https://www.facebook.com/azeez.ibrahimbiozeez.7" target="_blank" rel="noopener">
+          <img class="media-cont" src="./assest/images/F.png" alt="Facebook">
+        </a>
+      </div>
+      <div>
+        <a href="https://youtube.com/@biozeez_tech?si=t9wSb_j_v7HXGBxt" target="_blank" rel="noopener">
+          <img class="media-cont" src="./assest/images/Y.png" alt="YouTube">
+        </a>
+      </div>
+      <div>
+        <a href="https://x.com/Biozeez09?t=V7EqMUJSeQalDLs4ETp_6A&S=09" target="_blank" rel="noopener">
+          <img class="media-cont" src="./assest/images/X.png" alt="X (Twitter)">
+        </a>
+      </div>
+      <div>
+        <a href="tel:+2349166668701">
+          <img class="media-cont" src="./assest/images/W.png" alt="WhatsApp">
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/ibrahim-azeez-8a25512a8" target="_blank" rel="noopener">
+          <img class="media-cont" src="./assest/images/L.png" alt="LinkedIn">
+        </a>
+      </div>
+      <div>
+        <a href="https://biozeez09.github.io/aerontech/" target="_blank" rel="noopener">
+          <img class="media-cont" src="./assest/images/github.png" alt="GitHub">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── MAIN FOOTER ─── -->
+  <footer class="Main-Footer">
+    <div class="F-aeron">
+      <h4 class="F-h4">AERON INC.</h4>
+      <p>
+        We are passionate about our work. Our developer stay ahead of
+        the curve to provide engaging and user-friendly website designs to
+        make your business stand out. Our developers are committed to
+        maintaining the highest web standards so that your site will
+        withstand the test of time.
+      </p>
+    </div>
+    <div class="F-web-links">
+      <h4 class="F-h4">WEBSITE LINKS</h4>
+      <div class="F-link">
+        <a href="about.php"><p>About Us</p></a>
+        <a href="services.php"><p>Our Services</p></a>
+        <a href="#"><p>Privacy & Policy</p></a>
+        <a href="#"><p>Explorer Point Program</p></a>
+        <a href="#"><p>Terms & Condition</p></a>
+        <a href="#"><p>Warranty</p></a>
+        <a href="#"><p>Product Authentication</p></a>
+      </div>
+    </div>
+    <div class="F-help-links">
+      <h4 class="F-h4">GET HELP</h4>
+      <div class="F-link">
+        <a href="#"><p>Visit Carlcare</p></a>
+        <a href="#"><p>Online Guide</p></a>
+        <a href="contact.php"><p>Contact Us</p></a>
+        <a href="tel:+2349035114545"><p>+2349035114545</p></a>
+        <a href="mailto:Biodzeez@gmail.com"><p>Biodzeez@gmail.com</p></a>
+      </div>
+    </div>
+    <div class="F-address">
+      <h4 class="F-h4">ADDRESS</h4>
+      <p>88A, Itale-papa Community,<br>Oja-Odan, Ogun-State.</p>
+    </div>
+  </footer>
+
+  <div class="Developed">
+    <p>All Rights Reserved &copy; 2025 Aeron Inc. Developed by
+      <a href="mailto:Biodzeez@gmail.com"><span>Bio_tech</span></a>
+    </p>
+  </div>
+
+  <script src="./assest/script.js"></script>
+</body>
+</html>
